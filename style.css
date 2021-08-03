@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(255, 102, 46);
+    font-family: Yomogi;
+    color: white;
+}
+
+.hed {
+    background-color: white;
+    color: gold;
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+@media screen and (max-width : 370px) {
+    .td_1 {
+        height: 350px;
+    }
+}
+
+.td_1 {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.td_2 {
+    display: inline-flex;
+    color: black;
+}
+
+.td_3 {
+    background-color: white;
+    margin-left: 2%;
+    margin-top: 0%;
+    width: auto;
+    height: auto;
+    font-size: 40px;
+}
+
+.td_3 p {
+    padding-left: 20px;
+}
+
+.ti {
+    width: 40%;
+    height: auto;
+    margin-left: 1%;
+}
